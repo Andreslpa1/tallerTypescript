@@ -11,7 +11,7 @@ applyFilterByName();
 btnfilterByName.onclick = () => applyFilterByName();
 //inputSearchBox.onkeyup = () => applyFilterByName();
 
-totalCreditElm.innerHTML = `${getTotalCredits(dataCourses)}`
+totalCreditElm.innerHTML = `Total Créditos ${getTotalCredits(dataCourses)}`
 
 
 function renderCoursesInTable(courses: Course[]): void {

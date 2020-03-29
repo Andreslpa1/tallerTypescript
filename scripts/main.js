@@ -6,7 +6,7 @@ var totalCreditElm = document.getElementById("total-credits");
 applyFilterByName();
 btnfilterByName.onclick = function () { return applyFilterByName(); };
 //inputSearchBox.onkeyup = () => applyFilterByName();
-totalCreditElm.innerHTML = "" + getTotalCredits(dataCourses);
+totalCreditElm.innerHTML = "Total Cr\u00E9ditos " + getTotalCredits(dataCourses);
 function renderCoursesInTable(courses) {
     console.log('Desplegando cursos');
     courses.forEach(function (course) {
